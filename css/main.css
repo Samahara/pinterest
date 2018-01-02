@@ -21,12 +21,17 @@ nav {
   width: 90%;
 }
 
-#images_container > img {
+#images_container > div {
   border-radius: 15px;
   display: inline-block;
   margin-left: 15px;
   margin-bottom: 10px;
-  vertical-align: top;
+  vertical-align: text-top;
+  width: 280px;
+}
+
+#images_container > div > img {
+  border-radius: 15px;
   width: 280px;
 }
 
